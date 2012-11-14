@@ -1,0 +1,66 @@
+body {
+	margin-top: 1.0em;
+	background-color: #eee;
+	font-family: Helvetica, Arial, FreeSans, san-serif;
+	color: #000;
+}
+
+#header {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.8em;
+	color: #808080;
+	margin: 0px;
+	padding-left: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: transparent url(../g/solenopsis_logo.png) no-repeat left center;
+	display: inline-block;
+}
+
+h1 .small {
+	font-size: 0.4em;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #333;
+	text-align: center;
+}
+
+h3 {
+	color: #333;
+}
+
+a {
+	color: #333;
+}
+
+h1 a {
+	color: #808080;
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#projects, #blog {
+	width: 43%;
+	display: block;
+	float: left;
+	padding: 0 25px;
+	margin: 0 10px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.who {
+	font-size: .75em;
+}
