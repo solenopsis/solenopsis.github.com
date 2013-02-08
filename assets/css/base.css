@@ -1,6 +1,5 @@
 body {
 	padding-top: 60px;
-	padding-bottom: 40px;
 }
 
 .sidebar-nav {
@@ -49,4 +48,10 @@ body {
 
 .right {
 	float: right;
+}
+
+#footer {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 20px;
 }

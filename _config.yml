@@ -1,4 +1,4 @@
-permalink: /blog/:title
+permalink: /blog/:year-:month-:day-:title
 title: solenopsis
 url: http://solenopsis.org/blog
 

@@ -1,0 +1,26 @@
+--- 
+title: How We Redesigned
+tags: []
+
+type: post
+layout: post
+status: publish
+published: true
+author: pcon
+author_link: http://pcon.github.com/
+date: 2013-02-08 15:00:00
+---
+<p>As you may or may not have noticed, yesterday we pushed out a new version of our webpage.  So the question may be "why would you do that since it was just a page that pointed to github?".  Well, that's just the point, it was just a page that pointed to github, but it could be so much more. The rewrite started with the fact that we did not like that our blog entries were coming from an ugly wordpress url and site, and we wanted to have a little more control over how we could use that site.  In the rest of this post, we'll go over what's new, and how we did it.</p>
+<h2>What's new?</h2>
+<ul>
+	<li>Github hosted blog</li>
+	<li>Unified theme across all projects</li>
+	<li>Prettier</li>
+	<li>More responsive</li>
+</ul>
+<h2>What did we use?</h2>
+<p>Like most people that want to use github as a blog hosting framework we started with <a href="https://github.com/mojombo/jekyll">Jekyll</a> because it offers templating and github pages "just work" with it.  All we have to do is push out the code to the github repo and tada! it's ready.  Jekyll also makes it easy to create blog posts since they are in seperate <a href="https://raw.github.com/solenopsis/solenopsis.github.com/master/_posts/2013-02-08-how-we-redesigned.textile">template files</a></p>
+<p>However, one of the biggest problems with Jekyll is that it doesn't really make anything pretty.  You have to do that.  So we decided to give <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> a try because it give us a lot of layout things for free as well as including nifty icons! <i class="icon-heart"></i>
+<h2>What now?</h2>
+<p>We'd like to promise that we'll blog all the time now, but that probably won't happen, but we will try to keep this page updated with information about our tools and if we add any new tools, we'll make sure we add them as well.  In the meantime, we're working on updating our <a href="https://github.com/solenopsis/Solenopsis/wiki">wiki</a> to make it easier to setup and understand our tools.  We're also trying to migrate <a href="/Solenopsis">Solenopsis</a> from ANT to full python with the MetadataAPI but it's slow going.</p>
+<p>Want something to checkout in the meantime?  Take a gander at some of the <a href="/about/#presentations">presentations</a> we've done about our tools.</p>
