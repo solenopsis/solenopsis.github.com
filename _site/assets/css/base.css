@@ -1,0 +1,52 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+.post {
+	padding-bottom: 20px;
+}
+
+.line-separator{
+	height: 1px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background: #717171;
+	border-bottom: 1px solid #313030;
+}
+
+#stitle {
+	font-size: 3.8em;
+	color: gray;
+	margin: 0px;
+	padding-left: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: transparent url(../img/solenopsis_logo.png) no-repeat left center;
+	display: inline-block;
+}
+
+#ltitle {
+	font-size: 3.8em;
+	color: gray;
+	margin: 0px;
+	padding-left: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: transparent url(../img/lasius_logo.png) no-repeat left center;
+	display: inline-block;
+}
+
+.anchor, .anchor:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.right {
+	float: right;
+}

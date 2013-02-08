@@ -1,0 +1,77 @@
+---
+layout: default
+title: Solenopsis - SLoggly
+---
+<div class="row-fluid">
+	<div class="span12">
+		<div class="right">
+			<a href="https://github.com/solenopsis/slogglys/zipball/master"><img width="90" src="https://github.com/images/modules/download/zip.png" alt="zip"></a>
+			<a href="https://github.com/solenopsis/sloggly/tarball/master"><img width="90" src="https://github.com/images/modules/download/tar.png" alt="tar"></a>
+		</div>
+		<a href="https://github.com/solenopsis/sloggly"><img src="/assets/img/sloggly_logo.png" /></a>
+		<p class="lead">SLoggly is a class for logging to <a href="http://loggly.com">Loggly</a> from Salesforce APEX classes.</p>
+		<h3><a id="features" class="anchor">Features</a></h3>
+		<ul>
+			<li>Custom settings for setting Loggly URL</li>
+			<li>Support for on the fly batch logging (see examples)</li>
+			<li>JSON logs in Loggly [<a href="http://loggly.com/blog/2011/06/on-the-way-to-impressive/">1</a>]</li>
+		</ul>
+		<br />
+		<h1><a id="setup" class="anchor">Setup</a></h1>
+		<br />
+		<h2><a id="loggly-configuration" class="anchor">Configure Loggly</a></h2>
+		<ul>
+			<li>Create a <a href="http://loggly.com/support/sending-data/input-basics/">new input</a> in Loggly that is HTTPS and json
+				<img src="http://i.imgur.com/Lk6E3.png" /></li>
+			<li>Copy your input URL from the input page</li>
+		</ul>
+		<br />
+		<h2><a id="salesforce-configuration" class="anchor">Configure Salesforce</a></h2>
+		<ul>
+			<li>Add Loggly to your allowed remote sites
+				<ul>
+					<li>Setup <i class="icon-arrow-right"></i> Secrity Controls <i class="icon-arrow-right"></i> Remote Site Settings</li>
+					<li>Click New Remote Site</li>
+					<li>Name it "Loggly"</li>
+					<li>Set the Remote Site URL to "https://logs.loggly.com"
+						<p><img src="http://i.imgur.com/BFGcb.png" /></p></li>
+				</ul>
+			</li>
+			<li>After deploying the Custom Settings object and the Loggly class file, add a new Loggly custom setting
+				<ul>
+					<li>Setup <i class="icon-arrow-right"></i> Develop <i class="icon-arrow-right"></i> Custom Settings</li>
+					<li>Click Manage next to Loggly</li>
+					<li>Click New</li>
+					<li>Name it "default" and enter in you URL from the <a href="#loggly-configuration">Loggly Configuration</a> section</li>
+					<li>Then set the other custom parts to the logging
+						<p><img src="http://i.imgur.com/WNR1A.png" /></p></li>
+				</ul>
+			</li>
+		</ul>
+		<h1><a id="examples" class="anchor">Examples</a></h1>
+		<h4><a id="examples-single-log" class="anchor">Single Log</a></h4>
+		<p><pre>Loggly.singleLog('Error Message', DateTime.now(), 'LEVEL');</pre></p>
+		<h4><a id="examples-batching-logs" class="anchor">Batching Logs</a></h4>
+		<p><pre>//Enable batching
+Loggly.BATCH_LOGS=True;
+
+//Create new instance of the Loggly class
+Loggly l = new Loggly();
+
+//Batch a message
+l.add('Error Message', DateTime.now(), 'LEVEL');
+
+//Any calls to Loggly.singleLog after setting BATCH_LOGS will automatically be
+//batched and sent with the .flush
+
+//Flush the message queue
+l.flush();</pre></p>
+		<h4>Screenshot from Loggly</h4>
+		<p><img src="http://i.imgur.com/lh7rn.png" /></p>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span6 offset2">
+		<p>get the source code on GitHub : <a href="https://github.com/solenopsis/sloggly">solenopsis/sloggly</a>
+	</div>
+</div>

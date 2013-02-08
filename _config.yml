@@ -1,0 +1,17 @@
+permalink: /blog/:title
+title: solenopsis
+url: http://solenopsis.org/blog
+
+auto: true
+
+parent:
+     name: solenopsis.org 
+     url: http://solenopsis.org
+
+feedurl: http://solenopsis.org/blog/atom.xml
+sourceurl: http://github.com/solenopsis/blog/
+
+author:
+     name: solenopsis
+     email: solenopsis@deadlypenguin.com
+     twitter: https://twitter.com/sfdcsolenopsis

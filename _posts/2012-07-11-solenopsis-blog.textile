@@ -1,0 +1,15 @@
+--- 
+title: Solenopsis blog
+tags: []
+
+type: post
+layout: post
+status: publish
+meta: 
+  _edit_last: "12439101"
+  jabber_published: "1342016285"
+published: true
+author: pcon
+author_link: http://pcon.github.com/
+---
+In an effort to up transparency we're going to try to blog new features and future plans.

@@ -1,0 +1,13 @@
+--- 
+title: New Homepage Layout 
+tags: []
+
+type: post
+layout: post
+status: publish
+published: true
+author: pcon
+author_link: http://pcon.github.com/
+date: 2013-02-07 17:00:00
+---
+We've updated the site design for the root of <a href="http://solenopsis.org">solenopsis.org</a> and will be updating the other pages under this header soon.

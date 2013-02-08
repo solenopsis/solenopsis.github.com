@@ -1,0 +1,18 @@
+--- 
+title: Introducing SLoggly
+tags: []
+
+type: post
+layout: post
+status: publish
+meta: 
+  _edit_last: "12439101"
+  email_notification: "1352926811"
+  jabber_published: "1352926811"
+  _publicize_pending: "1"
+published: true
+author: pcon
+author_link: http://pcon.github.com/
+date: 2012-11-14 21:00:00
+---
+Recently we have released another tool in the Solenopsis "suite" of Salesforce tools. This tool is designed to be able to push messages from APEX in Salesforce to Loggly. It supports single logs and batch logging. Head over to our <a href="http://solenopsis.org/sloggly/">github page</a> to read about it and <a href="https://github.com/solenopsis/sloggly">download it</a> for yourself. We will be working on getting this built and deployed on the AppExchange shortly.
