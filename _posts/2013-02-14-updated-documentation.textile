@@ -1,0 +1,24 @@
+--- 
+title: Updated documentation
+subtitle: Because we love you.
+tags: []
+
+type: post
+layout: post
+status: publish
+published: true
+author: pcon
+author_link: http://pcon.github.com/
+date: 2013-02-14 10:00:00
+---
+<p>Let's face it, nobody like writing documentation.  We'd much rather be chugging away at coding, or looking at pictures of cats.  But, we do what we must because we <del>can</del> love you.</p>
+<p>We've moved most of the documentation from the <a href="https://github.com/solenopsis/Solenopsis/blob/master/README.md">README.md</a> into their own <a href="https://github.com/solenopsis/Solenopsis/wiki">wiki</a> pages</p>
+<p>Some of our wiki pages hot off the presses are:
+<ul>
+<li><a href="https://github.com/solenopsis/Solenopsis/wiki/Solenopsis">History and background</a></li>
+<li><a href="https://github.com/solenopsis/Solenopsis/wiki/Installation">Installation</a></li>
+<li><a href="https://github.com/solenopsis/Solenopsis/wiki/Configuration">Configuration</a></li>
+<li><a href="https://github.com/solenopsis/Solenopsis/wiki/Solenopsis-Usage-(Python)">Usage</a></li>
+<li><a href="https://github.com/solenopsis/Solenopsis/wiki/Workflow">Suggested workflow</a></li>
+<li><a href="https://github.com/solenopsis/Solenopsis/wiki">... And more!</a></li>
+</ul></p>

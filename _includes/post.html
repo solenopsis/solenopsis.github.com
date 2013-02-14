@@ -1,3 +1,4 @@
 <h1>{{ post.title }}</h1>
+{{if post.subtitle}}<h2>{{post.subtitle}}</h2>{{endif}}
 <p><small>{{ post.date | date: "%B %d, %Y" }} by <a href="{{ post.author_link }}">{{ post.author }}</a></small></p>
 <p>{{ post.content }}</p>
