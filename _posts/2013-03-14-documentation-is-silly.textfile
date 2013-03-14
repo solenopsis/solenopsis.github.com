@@ -12,4 +12,4 @@ author_link: http://pcon.github.com/
 date: 2013-03-14 09:00:00
 ---
 <p>We're in the midst of a minor-major update to the backing of solenopsis.  This will be solenopsis 1.2.  Because of that, you'll notice that most our our <a href="https://github.com/solenopsis/Solenopsis/wiki">documentation</a> has been prepend with 1.1</p>
-<p>Why does it matter? Well, it's because while we work on 1.2 we'll be pushing parts of it out as we go along, so you use both of them at the same time.  All you need to do is add <code>--solversion=1.2</code> to the command to set your version.</p>
+<p>Why does it matter? Well, it's because while we work on 1.2 we'll be pushing parts of it out as we go along, so you can use both of them at the same time.  All you need to do is add <code>--solversion=1.2</code> to the command to set your version.</p>
