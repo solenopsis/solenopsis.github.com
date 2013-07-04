@@ -1,0 +1,15 @@
+--- 
+title: SLoggly is in the AppExchange
+subtitle: Get it while it's hot!
+tags: []
+
+type: post
+layout: post
+status: publish
+published: true
+author: pcon
+author_link: http://pcon.github.com/
+date: 2013-07-04 15:30:00
+---
+<p>After far too long, <a href="http://solenopsis.org/sloggly/">SLoggly</a> is finally available as a public Managed Package in the <a href="http://bit.ly/17Wi5pt">AppExchange.</a>  Feel free to install it, and play around with it!</p>
+<p>Like any software, there may be some issues that we have not seen, so if you have any problems, please file them over at <a href="https://github.com/solenopsis/sloggly/issues?state=open">GitHub</a> and we'll take care of them ASAP.  As always, we'll be in the #solenopsis channel on <a href="http://freenode.net/">freenode</a> if you have any questions or just want to chat.  Also feel free to email <a href="mailto:support@solenopsis.org">support@solenopsis.org</a> with any questions.</p>
