@@ -5,11 +5,13 @@ url: http://solenopsis.org/blog
 auto: true
 
 parent:
-     name: solenopsis.org 
+     name: solenopsis.org
      url: http://solenopsis.org
 
 feedurl: http://solenopsis.org/blog/atom.xml
 sourceurl: http://github.com/solenopsis/blog/
+
+markdown: kramdown
 
 author:
      name: solenopsis
