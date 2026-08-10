@@ -11,6 +11,7 @@ const projects = [
 <Layout title="Salesforce developer tools" description="Solenopsis is a collection of open-source Salesforce developer tools and Java libraries.">
   <section class="hero">
     <div class="container">
+      <img class="avatar" src="/images/solenopsis-avatar.png" alt="Solenopsis" />
       <p class="eyebrow">Open source Salesforce tooling</p>
       <h1>Solenopsis</h1>
       <p>A collection of developer tools and libraries for working with Salesforce, from deployment and metadata to SOAP clients, sessions, and logging.</p>
@@ -43,4 +44,15 @@ const projects = [
       <p class="section-intro">The site is intentionally lightweight. Documentation and source live with the projects on GitHub, while this site provides a clean entry point and a map of the ecosystem.</p>
     </div>
   </section>
+
+  <style>
+    .avatar {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 24px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+  </style>
 </Layout>
