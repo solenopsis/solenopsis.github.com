@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+const projects = [
+  { name: 'Solenopsis', repo: 'Solenopsis', text: 'Command-line Salesforce deployment tooling built from Ant and Python, with templates and deployment helpers.' },
+  { name: 'SOAP', repo: 'soap', text: 'Java SOAP clients for Salesforce Apex, Enterprise, Metadata, Partner, and Tooling APIs.' },
+  { name: 'Session', repo: 'session', text: 'Java session management and authentication for Salesforce SOAP APIs.' },
+  { name: 'Metadata', repo: 'metadata', text: 'Utilities for retrieving Salesforce API and custom WSDL metadata.' },
+  { name: 'SLoggly', repo: 'sloggly', text: 'Salesforce Apex logging integration for sending structured logs to Loggly.' },
+];
+---
+<Layout title="Salesforce developer tools" description="Solenopsis is a collection of open-source Salesforce developer tools and Java libraries.">
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Open source Salesforce tooling</p>
+      <h1>Solenopsis</h1>
+      <p>A collection of developer tools and libraries for working with Salesforce, from deployment and metadata to SOAP clients, sessions, and logging.</p>
+      <div class="actions">
+        <a class="button" href="/projects/">Explore projects</a>
+        <a class="button secondary" href="https://github.com/solenopsis">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>The project family</h2>
+      <p class="section-intro">Solenopsis started as command-line Salesforce deployment tooling and grew into a set of focused libraries and utilities. The repositories remain the authoritative source for the individual projects.</p>
+      <div class="cards">
+        {projects.map((project) => (
+          <article class="card">
+            <h3>{project.name}</h3>
+            <p>{project.text}</p>
+            <a class="link" href={`https://github.com/solenopsis/${project.repo}`}>GitHub →</a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Built for developers</h2>
+      <p class="section-intro">The site is intentionally lightweight. Documentation and source live with the projects on GitHub, while this site provides a clean entry point and a map of the ecosystem.</p>
+    </div>
+  </section>
+</Layout>
