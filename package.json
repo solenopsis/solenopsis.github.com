@@ -1,0 +1,18 @@
+{
+  "name": "solenopsis-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Solenopsis project website",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "astro": "7.1.3"
+  }
+}
