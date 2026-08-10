@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+const projects = [
+  { name: 'Solenopsis', repo: 'Solenopsis', description: 'Command-line Salesforce deployment tooling combining Ant and Python for deployment, flags, and templates.' },
+  { name: 'SOAP', repo: 'soap', description: 'Java library with generated SOAP clients for Salesforce Apex, Enterprise, Metadata, Partner, and Tooling APIs.' },
+  { name: 'Session', repo: 'session', description: 'Java library for Salesforce authentication, session lifecycle, and authenticated SOAP ports.' },
+  { name: 'Metadata', repo: 'metadata', description: 'Utilities for downloading Salesforce API and custom WSDL metadata.' },
+  { name: 'SLoggly', repo: 'sloggly', description: 'Salesforce Apex logging integration that sends logs to Loggly.' },
+];
+---
+<Layout title="Projects">
+  <div class="container prose">
+    <p class="eyebrow">Solenopsis</p>
+    <h1>Projects</h1>
+    <p>These repositories make up the surviving Solenopsis project family. Each project has its own source, issues, and documentation on GitHub.</p>
+    <div class="cards">
+      {projects.map((project) => (
+        <article class="card">
+          <h3>{project.name}</h3>
+          <p>{project.description}</p>
+          <a class="link" href={`https://github.com/solenopsis/${project.repo}`}>Open repository →</a>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout>
