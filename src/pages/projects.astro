@@ -10,6 +10,7 @@ const projects = [
 ---
 <Layout title="Projects">
   <div class="container prose">
+    <img class="avatar" src="/images/solenopsis-avatar.png" alt="Solenopsis" />
     <p class="eyebrow">Solenopsis</p>
     <h1>Projects</h1>
     <p>These repositories make up the surviving Solenopsis project family. Each project has its own source, issues, and documentation on GitHub.</p>
@@ -23,4 +24,14 @@ const projects = [
       ))}
     </div>
   </div>
+  <style>
+    .avatar {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+    }
+  </style>
 </Layout>
